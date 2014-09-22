@@ -93,6 +93,7 @@ a:visited {
 	border-color: black;
 	border-style: dotted;
 	font-size: 22px;
+	letter-spacing: 2px;
 }
 
 #footer {
@@ -102,13 +103,12 @@ a:visited {
 	font-size: 12px;
 	color: #666666;
 	text-align: center;
-	border-radius: 0 0 30px 30px;
 }
 
 #post-header h1 {
 	text-align: center;
 	font-size: 50px;
-	color: #52555C;
+	color: #0048A6;
 	font-family: chunkfive;
 }
 
