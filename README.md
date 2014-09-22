@@ -6,7 +6,6 @@ midcentury
 * Email
 * Tagline
 * Post - Time
-* Calendar for jumping to posts from a specific date
 * List of featured posts
 * List of recent posts
 
@@ -18,6 +17,7 @@ midcentury
 * List of categories
 * List of posts by month
 * List of tags 
+* Calendar for jumping to posts from a specific date
 
 #Discard
 * Post - Author
