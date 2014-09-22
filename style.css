@@ -1,0 +1,131 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-image: url("pattern.png");
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin: 0 0 40px 0;
+}
+
+a:link {
+	color: #73A2FF;
+}
+
+a:hover {
+	color: #0238A6;
+}
+
+a:visited {
+	color: #73A2FF;
+}
+
+#wrap {
+	width: 950px;
+	margin: 0 auto;
+	background: #FFF;
+}
+
+#header {
+	text-align: center;
+	background: #FFF;
+	font-family: brush;
+	font-size: 30px;
+	color: #27292B;
+}
+
+#header h2 {
+	font-size: 16px;
+	color: grey;
+	font-family: opensans;
+}
+
+#main {
+	float: right;
+	width: 670px;
+	background: #FFF;
+	padding: 10px;
+	margin: 0 10px 10px 10px;
+	font-family: opensans;
+	font-size: 14px;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: darkgrey;
+	color: #888888;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	background: #FFF;
+	padding: 10px;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: darkgrey;
+	font-family: opensans;
+	font-size: 14px;
+	color: #4A4D54;
+}
+
+#sidebar h1 {
+	text-align: center;
+	border-top: 0;
+	border-bottom: 1px;
+	border-right: 0;
+	border-left: 0;
+	border-color: black;
+	border-style: dotted;
+}
+
+#footer {
+	clear: both;
+	background:#FFF;
+	text-align: right;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+
+}
+
+#post-header h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #52555C;
+	font-family: quicksand;
+}
+
+#post-header h2 {
+	text-align: center;
+	font-size: 12px;
+	color: #757575;
+}
+
+img {
+	width: 100%;
+}
+
+@font-face {
+	font-family: brush;
+	src: url(brush.ttf);
+}
+
+@font-face {
+	font-family: opensans;
+	src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: quicksand;
+	src  : url(Quicksand-Italic.otf);
+}
