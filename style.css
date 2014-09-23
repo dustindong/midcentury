@@ -16,19 +16,28 @@ h1 {
 }
 
 h2 {
-	margin: 0 0 40px 0;
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
 }
 
 a:link {
 	color: #73A2FF;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #0238A6;
+	color: #3A539B;
+}
+a:hover:visited {
+	color: #3A539B;
 }
 
 a:visited {
 	color: #73A2FF;
+	text-decoration: none
 }
 
 #wrap {
@@ -41,8 +50,16 @@ a:visited {
 	text-align: center;
 	background: #FFF;
 	font-family: brush;
-	font-size: 30px;
+	font-size: 40px;
 	color: #27292B;
+}
+
+#header h3 {
+	text-align: center;
+	font-family: opensans;
+	font-size:14px;
+	color: grey;
+
 }
 
 #header h2 {
@@ -53,35 +70,41 @@ a:visited {
 
 #main {
 	float: right;
-	width: 670px;
+	width: 640px;
 	background: #FFF;
 	padding: 10px;
 	margin: 0 10px 10px 10px;
 	font-family: opensans;
-	font-size: 14px;
-	border-top: 2px;
+	font-size: 16px;
+	border-top: 1px;
 	border-bottom: 2px;
 	border-left: 0;
 	border-right: 0;
-	border-style: solid;
+	border-style: dotted;
 	border-color: darkgrey;
 	color: #888888;
+	line-height: 1.5;
 }
 
 #sidebar {
 	float: left;
 	width: 200px;
 	background: #FFF;
-	padding: 10px;
-	border-top: 2px;
-	border-bottom: 2px;
+	padding: 20px;
+	border-top: 0px;
+	border-bottom: 0px;
 	border-left: 0;
-	border-right: 0;
-	border-style: solid;
+	border-right: 1px;
+	border-right-style: dotted;
+	border-bottom-style: solid;
 	border-color: darkgrey;
 	font-family: opensans;
 	font-size: 13px;
 	color: #4A4D54;
+}
+
+#sidebar img {
+	padding: 3px;
 }
 
 #sidebar h1 {
@@ -101,23 +124,40 @@ a:visited {
 	text-align: right;
 	font-size: 12px;
 	text-align: center;
+	font-family: opensans;
 }
 
 #post-header h1 {
 	text-align: center;
 	font-size: 50px;
-	color: #0048A6;
+	color: #59ABE3;
 	font-family: chunkfive;
 }
 
 #post-header h2 {
-	text-align: center;
+	text-align: right;
 	font-size: 12px;
 	color: #757575;
 }
 
+
+#featured {
+	display: inline;
+}
+
+#featured img {
+	max-width: 100px;
+	max-height: 100px;
+	object-fit: cover;
+	padding: 3px;
+}
+
+#categories {
+	text-align: right;
+}
+
 img {
-	width: 100%;
+	max-width: 100%;
 }
 
 @font-face {
@@ -130,13 +170,27 @@ img {
 	src: url(OpenSans-Regular.ttf);
 }
 
-@font-face {
-	font-family: quicksand;
-	src  : url(Quicksand-Italic.otf);
-}
 
 @font-face {
 	font-family: chunkfive;
 	src: url(Chunkfive.otf);
-]
+}
+
+.tooltip{
+	display: inline;
+	position: relative;
+}
+
+.tooltip:hover:after {
+	background: #000;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	bottom: 26px;
+	color: #fff;
+	content: attr(title);
+	left: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 100%;
 }
