@@ -1,6 +1,8 @@
 midcentury
 ==========
 
+##for this exercise we were assigned to create a blog for a company called midcentury. it was a blog about furniture and we had to design and style the website.
+
 #More Important
 * Address
 * Email
